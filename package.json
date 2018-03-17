@@ -1,0 +1,19 @@
+{
+  "name": "typewiz-example",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "rxjs": "^5.5.6",
+    "typewiz-node": "^0.4.3"
+  },
+  "devDependencies": {
+    "@types/jasmine": "2.5.38",
+    "@types/node": "^6.0.99",
+    "codelyzer": "~4.1.0",
+    "ts-node": "~4.1.0",
+    "tslint": "~5.9.1",
+    "typescript": "^2.7.0"
+  }
+}
