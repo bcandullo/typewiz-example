@@ -7,9 +7,9 @@ enum Speed {
 class Food {}
 
 abstract class Animal {
-  protected speed: number;
+  protected speed;
   abstract eat(param);
-  protected consume(p: Food) {
+  protected consume(p) {
     console.log(`consumed ${p}`);
   }
 }
@@ -26,10 +26,10 @@ export class Bob extends Human {
   constructor() {
     super();
   }
-  eat(food: Food[]) {
-    food.forEach((f: Food) => this.consume(f));
+  eat(food) {
+    food.forEach(f => this.consume(f));
   }
-  talk(message: string) {
+  talk(message) {
     console.log(`Hi! ${message}`);
     return message;
   }
